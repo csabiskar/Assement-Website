@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - eGov Foundation</title>
+   <link rel="icon" type="image/png" href="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/08/25123706/eGov-Foundation.png" sizes="16x16">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <a href="#">Events</a>
+        <a href="#">Contact us</a>
+        <a href="#" class="top-bar-lang">
+          <img
+            src="https://egov.org.in/wp-content/plugins/gtranslate/flags/svg/en.svg"
+            alt=""
+          />
+          ENG <i class="fa-solid fa-caret-down top-bar-icon"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container navbar">
+        <div class="logo">
+          <img
+            src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/08/25123706/eGov-Foundation.png"
+            alt="eGov Foundation"
+          />
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#"
+              >About Us
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              >Areas of work
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              >Products & Solutions
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              >Our Platform
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              >Ecosystem
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              >Resources
+              <i class="fa-solid fa-chevron-down" style="color: #49edd3"></i
+            ></a>
+          </li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-heading">
+            20 years of digital transformation in public service delivery
+          </h1>
+          <p class="hero-possible">It's possible.</p>
+          <p class="hero-desc">
+            Catalysts. Ecosystem enablers. Problem Solvers. At eGov, we're
+            driven by the power of open digital infrastructure and ecosystems to
+            enable governments deliver accessible, inclusive and transparent
+            services to every citizen.
+          </p>
+          <div class="hero-btns">
+            <a href="#" class="btn btn-primary">Our Approach</a>
+            <a href="#" class="btn btn-outline">Our Impact</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/12/22121932/New-Home-Page-Banner-Image.png"
+            alt="Hero Image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-inner">
+        <div class="stats-top">
+          <div class="stats-main-number">1,000,000,100+</div>
+          <div class="stats-main-desc">
+            Citizens availing public services through eGov's Digital Public
+            Goods (DPG)
+          </div>
+        </div>
+        <div class="stats-bottom">
+          <div class="stat-item">
+            <div class="stat-number">1.1 Billion+</div>
+            <div class="stat-label">Public services delivered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+ partners</div>
+            <div class="stat-label">
+              From technology,<br />governments and NGOs
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Big Problems Card -->
+    <div class="big-problems-wrapper">
+      <div class="big-problems-card">
+        <div class="bp-left">
+          <p class="bp-heading-light">Big problems need</p>
+          <p class="bp-heading-bold">bold approaches</p>
+          <div class="bp-tabs">
+            <button class="bp-tab">Public Health</button>
+            <button class="bp-tab">Public Finance</button>
+            <button class="bp-tab active">Local Governance</button>
+            <button class="bp-tab">Water &amp; Sanitation</button>
+          </div>
+        </div>
+        <div class="bp-right">
+          <div class="bp-card bp-card-teal">
+            <div class="bp-stat">70%</div>
+            <p>
+              improved quality of life with implementations in Punjab, India
+            </p>
+            <button class="bp-read-more">Read More</button>
+            <img
+              class="bp-card-img"
+              src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/08/10-times-faster-punjab-1.png"
+              alt=""
+            />
+          </div>
+          <div class="bp-cards-right">
+            <div class="bp-card bp-card-light-blue">
+              <div class="bp-stat">250%</div>
+              <p>
+                increase in revenue mobilisation in Andhra Pradesh using the
+                DIGIT Platform
+              </p>
+              <button class="bp-read-more dark">Read More</button>
+              <img
+                class="bp-card-img-sm"
+                src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/10/lady.png"
+                alt=""
+              />
+            </div>
+            <div class="bp-card bp-card-blue">
+              <div class="bp-stat-title">UPYOG</div>
+              <p>
+                National Urban Governance Platform LIVE in India for all states.
+              </p>
+              <button class="bp-read-more white">Read More</button>
+              <img
+                class="bp-card-img-sm"
+                src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/08/National-platform-UPYOG-1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sustaining Change Section -->
+    <section class="sustaining-section">
+      <div class="sustaining-inner">
+        <p class="sustaining-title-light">
+          20 years of reimagining for citizens and
+        </p>
+        <p class="sustaining-title-bold-wrap">
+          <span class="sustaining-title-bold">sustaining change</span>
+        </p>
+        <p class="sustaining-desc">
+          Technology is powerful, but is only one piece of the puzzle, when it
+          comes to enhancing the quality of life for every citizen. To have
+          sustainable impact at scale, the collective energy of local networks
+          to solve local problems needs to be tapped into. Our partners &
+          networks bring this collective energy to life. The ecosystem already
+          exists; our task is to facilitate and amplify their efforts. For 20
+          years, we’ve been turning small steps into lasting, meaningful change,
+          so that no citizen is left behind.
+        </p>
+        <div class="sustaining-video-grid">
+          <div class="sustaining-video-card">
+            <img
+              src="https://egov.org.in/wp-content/themes/egov/assets/images/thumb-1.jpg"
+              alt="Leveraging technology for sustainable development"
+            />
+          </div>
+          <div class="sustaining-video-card">
+            <img
+              src="https://egov.org.in/wp-content/themes/egov/assets/images/thumb-2.png"
+              alt="Digitising civic services for better life"
+            />
+          </div>
+        </div>
+        <a href="#" class="btn sustaining-about-btn">About Us</a>
+      </div>
+    </section>
+
+
+    <!-- DIGIT Section -->
+    <section class="digit-section">
+      <!-- Glow effect -->
+      <div class="digit-glow"></div>
+
+      <!-- Person image — head overlaps into section above -->
+      <div class="digit-image">
+        <img
+          src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/12/22154549/DIGIT-Image-Only.png"
+          alt="DIGIT platform user"
+        />
+      </div>
+
+      <!-- Left content -->
+      <div class="digit-content">
+        <!-- DIGIT Logo -->
+        <div class="digit-logo">
+          <img src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/10/digit-n.png" 
+          alt="loading.." style="width: 180px;">
+        </div>
+
+        <!-- Headline -->
+        <p class="digit-pre-heading">Our open source</p>
+        <h2 class="digit-heading">technology-for-good<br />platform</h2>
+
+        <!-- Body -->
+        <p class="digit-desc">
+          DIGIT, short for Digital Infrastructure for Governance, Inclusion and
+          Transformation is eGov's open-source platform with reusable building
+          blocks and shared data registries that can be used to build solutions
+          in multiple sectors.
+        </p>
+
+        <!-- CTA -->
+        <a href="#" class="digit-btn">Explore the platform</a>
+      </div>
+    </section>
+
+    <!-- Latest eGov -->
+
+    <section class="latest">
+  <div class="container">
+    <h2>Latest at <span>eGov</span></h2>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="active">What's New</button>
+      <button >Articles</button>
+      <button>Whitepapers</button>
+      <button>Case Studies</button>
+      <button>Strategy Papers</button>
+      <button>News & Media</button>
+      <button>Videos</button>
+      <button>Newsletter</button>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2026/04/07105155/solvernetwork-thumb.webp" />
+        <div class="card-body">
+          <h3>From Goa to the Globe: How Pravimal Abhishek led the GIDC to digitally transform industrial governance in Goa</h3>
+          <p class="meta">Darshana Ramdev • 25 Jul 2025</p>
+          <div class="tags">
+            <span>Local Governance</span>
+            <span>GOA-IDC</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2026/03/13060122/State-led-Thumb.jpg" />
+        <div class="card-body">
+          <h3>Tech for Billions, Talent for None: Fixing GovTech’s Biggest Gap</h3>
+          <p class="meta">Darshana Ramdev • 10 Mar 2025</p>
+          <div class="tags">
+            <span>DIGIT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/12/24103813/DOT-September-Thumb.jpg" />
+        <div class="card-body">
+          <h3>From Systems to Ecosystems: A Shared Journey to Build Digital Public Goods</h3>
+          <p class="meta">Viraj Tyagi • 10 Jan 2025</p>
+          <div class="tags">
+            <span>Digital Public Goods</span>
+            <span>Local Governance</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#" class="see-all">See all</a>
+  </div>
+</section>
+
+ 
+
+    <!-- Footer -->
+<footer class="footer">
+
+  <!-- MAIN FOOTER -->
+  <div class="footer-top">
+    <div class="container footer-grid">
+
+      <!-- COL 1 -->
+      <div class="footer-col">
+        <img
+          src="https://egov-website-content.s3.ap-south-1.amazonaws.com/wp-content/uploads/2024/08/25123706/eGov-Foundation.png"
+          class="logo"
+        />
+
+        <p class="tagline">
+          Catalysing digital transformation in public service delivery at
+          speed & scale.
+        </p>
+
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- COL 2 -->
+      <div class="footer-col">
+        <h3>Useful Links</h3>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Our People</a>
+          <a href="#">Our Impact</a>
+          <a href="#">Financials</a>
+          <a href="#">DIGIT Sandbox</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+
+      <!-- COL 3 -->
+      <div class="footer-col">
+        <h3>Subscribe Now</h3>
+        <p class="desc">
+          Receive regular updates of our monthly newsletter DOT – in your inbox.
+        </p>
+
+        <div class="subscribe">
+          <input type="email" placeholder="Enter Your Email" />
+          <button>➤</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="container bottom-flex">
+      <p>©2024. eGov. All Rights Reserved.</p>
+      <div class="bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("active");
+      }
+
+      document.querySelectorAll(".bp-tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          document
+            .querySelectorAll(".bp-tab")
+            .forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
